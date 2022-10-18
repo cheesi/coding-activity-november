@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refucktoring", ".\Refucktoring\Refucktoring.csproj", "{06B66F4F-C2BE-435A-801D-A1540141E2BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Refucktoring.Tests", ".\Refucktoring.Tests\Refucktoring.Tests.csproj", "{C2E6678A-97AC-4470-BF8B-8DCA7BB867BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06B66F4F-C2BE-435A-801D-A1540141E2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B66F4F-C2BE-435A-801D-A1540141E2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B66F4F-C2BE-435A-801D-A1540141E2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B66F4F-C2BE-435A-801D-A1540141E2BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E6678A-97AC-4470-BF8B-8DCA7BB867BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E6678A-97AC-4470-BF8B-8DCA7BB867BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E6678A-97AC-4470-BF8B-8DCA7BB867BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E6678A-97AC-4470-BF8B-8DCA7BB867BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F65555E9-BA87-4348-AEF7-CF1D30744F6D}
+	EndGlobalSection
+EndGlobal
