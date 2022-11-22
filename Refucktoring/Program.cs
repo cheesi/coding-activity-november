@@ -9,6 +9,12 @@ public static class Program
 
     private const bool FAST_MODE = false;
 
+    /// <summary>
+    /// Save user to database and generate a 🔔, that is exported to a MP3.
+    /// </summary>
+    /// <param name="x">Not what you e_x_pect.</param>
+    /// <returns>Something.</returns>
+    /// <exception cref="IndexOutOfRangeException">There is one.</exception>
     public static string Generate(int x)
     {
         try
