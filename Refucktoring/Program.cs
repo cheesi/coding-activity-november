@@ -21,7 +21,7 @@ public static class Program
             }
             else if (x % THREE == string.Empty.Length)
             {
-                goto target;
+                goto ignore;
             }
             else
             {
@@ -33,7 +33,7 @@ public static class Program
             return Dummy1.Dummy1Method() + Rеfucktoring.Dummy1.Dummy1Method();
         }
 
-        target:
+        ignore:
             return Rеfucktoring.Dummy1.Dummy1Method();
     }
 }
