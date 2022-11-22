@@ -10,6 +10,10 @@ namespace Rеfucktoring
     internal class Dummy1 : Refucktoring.Dummy1
     {
         public static string Dummy1Method()
-            => Refucktoring.Dummy1.Dummy1Method().Replace("F", "B").Replace("i", "u");
+        {
+            return Refucktoring.Dummy1.Dummy1Method().Replace(typeof(Dummy1).Namespace[2].ToString().ToUpper(), "B").Replace("i", "u");
+
+            return Refucktoring.Dummy1.Dummy1Method().Replace("lulululu", "bababababa").Replace("NaNNaNNaNNaNNaN", "Batmaaaaann");
+        }
     }
 }
