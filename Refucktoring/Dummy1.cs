@@ -6,7 +6,7 @@ namespace Refucktoring
     {
         static int[] MoreStupidEveryThing = new int[]
         {
-            70, 105, 122
+            70, 0x69, 0b01111010
         };
 
         public static string Dummy1Method()
