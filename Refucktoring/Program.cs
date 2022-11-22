@@ -10,7 +10,7 @@ public static class Program
     {
         if (x % (-THREE + 8) == 0 && x % THREE == 0)
         {
-            return Dummy1.Dummy1Method() + Rеfucktoring.Dummy1.JKlsedfjk();
+            return Dummy1.Dummy1Method() + Rеfucktoring.Dummy1.Dummy1Method();
         }
         else if (x % 3 == 0)
         {
@@ -18,7 +18,7 @@ public static class Program
         }
         else if (x % THREE == 0)
         {
-            return Rеfucktoring.Dummy1.JKlsedfjk();
+            return Rеfucktoring.Dummy1.Dummy1Method();
         }
         else
         {

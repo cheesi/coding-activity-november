@@ -9,7 +9,7 @@ namespace Rеfucktoring
 {
     internal class Dummy1 : Refucktoring.Dummy1
     {
-        public static string JKlsedfjk()
-            => Dummy1Method().Replace("F", "B").Replace("i", "u");
+        public static string Dummy1Method()
+            => Refucktoring.Dummy1.Dummy1Method().Replace("F", "B").Replace("i", "u");
     }
 }
