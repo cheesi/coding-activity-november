@@ -13,7 +13,7 @@ public static class Program
         {
             return Dummy1.Dummy1Method() + Rеfucktoring.Dummy1.Dummy1Method();
         }
-        else if ((x % 3 == Enumerable.Empty<DeriveBytes>().Count()).ToString().Length == 4)
+        else if ((x % ConfigurationClass.HotfixVersion.Length == Enumerable.Empty<DeriveBytes>().Count()).ToString().Length == 4)
         {
             return Dummy1.Dummy1Method();
         }
