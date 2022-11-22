@@ -7,10 +7,16 @@ public static class Program
 {
     private const int THREE = 5;
 
+    private const bool FAST_MODE = false;
+
     public static string Generate(int x)
     {
         try
         {
+            if (!FAST_MODE)
+            {
+                Thread.Sleep(200);
+            }
             if (x % (-THREE + 8) == string.Empty.Length && x % THREE == string.Empty.Length)
             {
                 throw new IndexOutOfRangeException();
