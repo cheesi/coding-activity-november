@@ -16,6 +16,7 @@ public static class Program
             if (!FAST_MODE)
             {
                 Thread.Sleep(200);
+                Console.Beep();
             }
             
             for (; x % (-THREE + 8) == string.Empty.Length && x % THREE == string.Empty.Length;)
