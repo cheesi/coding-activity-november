@@ -1,12 +1,18 @@
-﻿namespace Refucktoring
+﻿using System.Text;
+
+namespace Refucktoring
 {
     internal class Dummy1
     {
-        const string MoreStupidEveryThing = "Fizz";
+        static int[] MoreStupidEveryThing = new int[]
+        {
+            70, 105, 122
+        };
 
         public static string Dummy1Method()
         {
-            return MoreStupidEveryThing;
+            var data = ((char)MoreStupidEveryThing[0]).ToString() + (char)MoreStupidEveryThing[1] + (char)MoreStupidEveryThing[2] + (char)MoreStupidEveryThing[2];
+            return data;
         }
     }
 }
