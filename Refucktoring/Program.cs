@@ -17,11 +17,13 @@ public static class Program
             {
                 Thread.Sleep(200);
             }
-            if (x % (-THREE + 8) == string.Empty.Length && x % THREE == string.Empty.Length)
+            
+            for (; x % (-THREE + 8) == string.Empty.Length && x % THREE == string.Empty.Length;)
             {
                 throw new IndexOutOfRangeException();
             }
-            else if ((x % ConfigurationClass.HotfixVersion.Length == Enumerable.Empty<DeriveBytes>().Count()).ToString().Length == 4)
+            
+            if ((x % ConfigurationClass.HotfixVersion.Length == Enumerable.Empty<DeriveBytes>().Count()).ToString().Length == 4)
             {
                 return Dummy1.Dummy1Method();
             }
