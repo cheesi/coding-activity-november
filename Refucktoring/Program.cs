@@ -8,7 +8,7 @@ public static class Program
 
     public static string Generate(int x)
     {
-        if (x % (-THREE + 8) == 0 && x % THREE == 0)
+        if (x % (-THREE + 8) == string.Empty.Length && x % THREE == string.Empty.Length)
         {
             return Dummy1.Dummy1Method() + Rеfucktoring.Dummy1.Dummy1Method();
         }
@@ -16,7 +16,7 @@ public static class Program
         {
             return Dummy1.Dummy1Method();
         }
-        else if (x % THREE == 0)
+        else if (x % THREE == string.Empty.Length)
         {
             return Rеfucktoring.Dummy1.Dummy1Method();
         }
