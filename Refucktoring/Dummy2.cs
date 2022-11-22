@@ -12,7 +12,7 @@ namespace Rеfucktoring
     {
         const string alphabet = "asdgjksdivbm,nmdif";
 
-        public static string Dummy1Method()
+        public static dynamic Dummy1Method()
         {
             return Refucktoring.Dummy1.Dummy1Method().Replace(typeof(Dummy1).Namespace[2].ToString().ToUpper(), alphabet[10].ToString().ToUpper()).Replace(alphabet[8].ToString(), ((char)(alphabet[8]+12)).ToString() );
 
