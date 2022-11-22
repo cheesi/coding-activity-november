@@ -10,7 +10,7 @@ public static class Program
         }
         else if (x % 3 == 0)
         {
-            return "Fizz";
+            return Dummy1.Dummy1Method();
         }
         else if (x % 5 == 0)
         {
