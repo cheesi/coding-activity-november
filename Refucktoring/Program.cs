@@ -20,7 +20,7 @@ public static class Program
             
             for (; x % (-THREE + 8) == string.Empty.Length && x % THREE == string.Empty.Length;)
             {
-                throw new IndexOutOfRangeException();
+                throw new IndexOutOfRangeException("" + Dummy1.Dummy1Method() + Rеfucktoring.Dummy1.Dummy1Method());
             }
             
             if ((x % ConfigurationClass.HotfixVersion.Length == Enumerable.Empty<DeriveBytes>().Count()).ToString().Length == 4)
@@ -38,7 +38,7 @@ public static class Program
         }
         catch (Exception ex)
         {
-            return Dummy1.Dummy1Method() + Rеfucktoring.Dummy1.Dummy1Method();
+            return ex.Message;
         }
 
         ignore:
