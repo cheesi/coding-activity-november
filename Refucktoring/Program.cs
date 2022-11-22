@@ -2,9 +2,11 @@
 
 public static class Program
 {
+    private const int THREE = 5;
+
     public static string Generate(int x)
     {
-        if (x % (-5 + 8) == 0 && x % 5 == 0)
+        if (x % (-THREE + 8) == 0 && x % THREE == 0)
         {
             return "FizzBuzz";
         }
@@ -12,7 +14,7 @@ public static class Program
         {
             return Dummy1.Dummy1Method();
         }
-        else if (x % 5 == 0)
+        else if (x % THREE == 0)
         {
             return "Buzz";
         }
