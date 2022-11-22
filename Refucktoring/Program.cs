@@ -2,23 +2,23 @@
 
 public static class Program
 {
-    public static string Generate(int number)
+    public static string Generate(int x)
     {
-        if (number % 3 == 0 && number % 5 == 0)
+        if (x % 3 == 0 && x % 5 == 0)
         {
             return "FizzBuzz";
         }
-        else if (number % 3 == 0)
+        else if (x % 3 == 0)
         {
             return "Fizz";
         }
-        else if (number % 5 == 0)
+        else if (x % 5 == 0)
         {
             return "Buzz";
         }
         else
         {
-            return number.ToString();
+            return x.ToString();
         }
     }
 }
