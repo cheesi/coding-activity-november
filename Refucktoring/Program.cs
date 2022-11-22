@@ -10,7 +10,7 @@ public static class Program
     {
         if (x % (-THREE + 8) == 0 && x % THREE == 0)
         {
-            return "FizzBuzz";
+            return Dummy1.Dummy1Method() + Rеfucktoring.Dummy1.JKlsedfjk();
         }
         else if (x % 3 == 0)
         {
