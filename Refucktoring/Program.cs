@@ -1,4 +1,6 @@
-﻿namespace Refucktoring;
+﻿using Rеfucktoring;
+
+namespace Refucktoring;
 
 public static class Program
 {
@@ -16,7 +18,7 @@ public static class Program
         }
         else if (x % THREE == 0)
         {
-            return "Buzz";
+            return Rеfucktoring.Dummy1.JKlsedfjk();
         }
         else
         {
